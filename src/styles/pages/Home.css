@@ -1,0 +1,77 @@
+.main {
+  width: 100%;
+}
+.common-inner {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+/*---------main-video---------*/
+.main-video {
+  width: 100%;
+  height: 100vh;
+}
+.video {
+  object-fit: cover;
+  width: 100%;
+  height: 100vh;
+  z-index: -1;
+}
+
+/*---------main-mystory---------*/
+.main-mystory {
+  position: relative;
+}
+.main-mystory h3 {
+  height: 200px;
+  background-color: #eaeaea;
+}
+.grid {
+  position: absolute;
+  top: 200px;
+  left: 50%;
+  width: 1px;
+  height: 100%;
+
+  background-color: var(--accent-color);
+  transform: translateX(-50%);
+}
+
+.story-list li {
+  display: flex;
+  position: relative;
+}
+.text-area {
+  width: 100%;
+  background-color: #eee;
+}
+.img-area {
+  position: relative;
+  right: -130px;
+}
+.left .img-area {
+  left: -130px;
+}
+
+/*---------main-myskils---------*/
+.main-myskils {
+  position: relative;
+  z-index: 99;
+  padding: 50px 0;
+  margin-top: 100px;
+  background-color: #eee;
+}
+.myskils-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.myskils-list img {
+  width: 100%;
+}
+
+/*---------main-banner---------*/
+.main-banner {
+  height: 350px;
+  background-color: var(--accent-color);
+}
